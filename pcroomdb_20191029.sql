@@ -309,11 +309,11 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`localhost` PROCEDURE `PCRoomProcedure`()
 begin
 	
-	INSERT INTO userTbl VALUES('sammy', '유세미', '여성', '1990-01-01', '예', '010-1234-5678', '02-123-4567', 'ysm@naver.com', '2019-10-16', 'image.jpg', 'on');
-	INSERT INTO userTbl VALUES('yunoi', '강윤해', '여성', '1987-03-01', '예', '010-2678-9101', '064-752-5712', 'kyh@gmail.com', '2019-10-17', 'image.jpg', 'off');
+	INSERT INTO userTbl VALUES('영문이름', '한글이름', '여성', '1990-01-01', '예', '010-1234-5678', '02-123-4567', 'sdfsdf@naver.com', '2019-10-16', 'image.jpg', 'on');
+	INSERT INTO userTbl VALUES('영문이름', '한글이름', '여성', '1987-03-01', '예', '010-1234-9101', '064-752-5712', 'sdfsadf@gmail.com', '2019-10-17', 'image.jpg', 'off');
 
-	INSERT INTO adminTbl VALUES('admin', '유세미', '여성', '1990-01-01', '010-1234-5788', '서울 중랑구' , 'ysm@naver.com','평일(오후)', '사장', null);
-	INSERT INTO adminTbl VALUES('manager0001', '강윤해', '여성', '1987-02-01', '010-4321-9874', '서울 성동구' , 'kyh@naver.com','평일(오전)', '매니저', '매장');
+	INSERT INTO adminTbl VALUES('admin', '한글이름', '여성', '1990-01-01', '010-1234-5788', '서울 강남구' , 'sffss@naver.com','평일(오후)', '사장', null);
+	INSERT INTO adminTbl VALUES('manager0001', '한글이이름', '여성', '1987-02-01', '010-4321-9874', '서울 성북구' , 'sdfsdf@naver.com','평일(오전)', '매니저', '매장');
 	
 	SELECT * FROM userTbl;
 	SELECT * FROM adminTbl;
